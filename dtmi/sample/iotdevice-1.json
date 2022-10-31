@@ -1,0 +1,27 @@
+{
+    "@id": "dtmi:sample:iotdevice;1",
+    "@type": "Interface",
+    "displayName": "IoT Device",
+    "@context": "dtmi:dtdl:context;2",
+    "description": {
+        "en": "Base IoT Device"
+    },   
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "specialIdentifier",
+            "displayName":"Identifier",
+            "comment": "Special Identifier for IoT Device",
+            "schema": "string",
+            "writable": false
+        },
+        {
+            "@type": "Property",
+            "name": "manufacturer",
+            "displayName": "Manufacturer",
+            "schema": "string",
+            "writable": false
+        }
+    ]
+
+}
